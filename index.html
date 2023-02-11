@@ -8,9 +8,11 @@
       img{
         height: 200px;
         width: 150px;
-        float: right;
         position: relative;
       } 
+      .sectionFlex{
+        display: flex;
+      }
 
       h1 {
         text-align: center;
@@ -84,14 +86,19 @@
 </head>
 <body>
   <div class="container">
-    <h1>Curriculumn Vitae</h1>
-    <img src="asif.jpg" alt="Asif">
-    <h3>Md. Asif Khan</h3>
-    <h4>Contact No: 017776459**</h4>
-    <h4>E-mail: asif15-1021@diu.edu.bd</h4>
-    <h2>Career Objective</h2>
-  <p>I am a highly motivated individual seeking a challenging role in a dynamic organization where I can utilize my skills and knowledge to make a positive impact and contribute to the growth of the company.</p>
-
+    <section class="sectionFlex">
+       <div>
+          <h1>Curriculumn Vitae</h1>
+          <h3>Md. Asif Khan</h3>
+          <h4>Contact No: 017776459**</h4>
+          <h4>E-mail: asif15-1021@diu.edu.bd</h4>
+          <h2>Career Objective</h2>
+          <p>I am a highly motivated individual seeking a challenging role in a dynamic organization where I can utilize my skills and knowledge to make a positive impact and contribute to the growth of the company.</p>
+       </div>
+      <div>
+        <img src="asif.jpg" alt="Asif">
+      </div>
+    </section>
 <h2>Skills</h2>
 <ul>
   <li>Proficient in Microsoft Office Suite</li>
